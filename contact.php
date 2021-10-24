@@ -7,18 +7,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/A.animate.css%2bowl.carousel.min.css%2bowl.theme.default.min.css%2bmagnific-popup.css%2bflaticon.css%2bstyle.css%2cMcc.tEAbUIjGTj.css.pagespeed.cf.swv2" />
+<link rel="stylesheet" href="font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 <div class="wrap">
 <div class="container">
 <div class="row">
 <div class="col-md-6 d-flex align-items-center">
-<p class="mb-0 phone pl-md-2">
-<a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a>
-<a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__" data-cfemail="21584e5453444c40484d61444c40484d0f424e4c">[email&#160;protected]</span></a>
-</p>
+<?php include'part/_phone.php'; ?>
 </div>
 <div class="col-md-6 d-flex justify-content-md-end">
 <div class="social-media">
@@ -33,7 +30,27 @@
 </div>
 </div>
 </div>
-<?php include'part/_nav.php'; ?>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<div class="container">
+<a class="navbar-brand" href="akiba">Akiba_manur</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="oi oi-menu"></span> Menu
+</button>
+<div class="collapse navbar-collapse" id="ftco-nav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item"><a href="akiba" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="about" class="nav-link">A propos</a></li>
+<li class="nav-item"><a href="team" class="nav-link">Equipe</a></li>
+<li class="nav-item"><a href="service" class="nav-link">Services</a></li>
+
+<li class="nav-item"><a href="blog" class="nav-link">Blog</a></li>
+<li class="nav-item active"><a href="contact" class="nav-link">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
 
 <section class="hero-wrap hero-wrap-2" style="background-image:url(images/bg_5.jpg)" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
