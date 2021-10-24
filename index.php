@@ -3,12 +3,12 @@
 
 <!-- Mirrored from preview.colorlib.com/theme/counselor/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 05:46:53 GMT -->
 <head>
-<title>Counselor - Free Bootstrap 4 Template by Colorlib</title>
+<title>Akiba_manur</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/animate.css%2bowl.carousel.min.css%2bowl.theme.default.min.css%2bmagnific-popup.css%2bflaticon.css%2bstyle.css.pagespeed.cc.tEAbUIjGTj.css" />
+<link rel="stylesheet" href="font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 <div class="wrap">
@@ -17,7 +17,7 @@
 <div class="col-md-6 d-flex align-items-center">
 <p class="mb-0 phone pl-md-2">
 <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a>
-<a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__" data-cfemail="750c1a00071018141c19351018141c195b161a18">[email&#160;protected]</span></a>
+<a href="mailto:"><span class="fa fa-paper-plane mr-1"></span> <span>[email&#160;protected]</span></a>
 </p>
 </div>
 <div class="col-md-6 d-flex justify-content-md-end">
@@ -33,40 +33,20 @@
 </div>
 </div>
 </div>
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-<div class="container">
-<a class="navbar-brand" href="index.php">Counselor</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="oi oi-menu"></span> Menu
-</button>
-<div class="collapse navbar-collapse" id="ftco-nav">
-<ul class="navbar-nav ml-auto">
-<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-<li class="nav-item"><a href="counselor.html" class="nav-link">Counselor</a></li>
-<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-</ul>
-</div>
-</div>
-</nav>
+<?php include'part/_nav.php'; ?>
 
-<div class="hero-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap" style="background-image: url('img/16.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text align-items-center">
 <div class="col-md-6 ftco-animate d-flex align-items-end">
 <div class="text w-100">
-<h1 class="mb-4">Counseling For Your Better Life</h1>
+<h1 class="mb-4 text text-success">Counseling For Your Better Life</h1>
 <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 <p><a href="#" class="btn btn-primary py-3 px-4">Contact us</a> <a href="#" class="btn btn-white py-3 px-4">Read more</a></p>
 </div>
 </div>
-<a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
-<span class="fa fa-play"></span>
-</a>
+
 </div>
 </div>
 </div>
