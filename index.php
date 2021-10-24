@@ -17,7 +17,7 @@
 <div class="col-md-6 d-flex align-items-center">
 <p class="mb-0 phone pl-md-2">
 <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a>
-<a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__" data-cfemail="750c1a00071018141c19351018141c195b161a18">[email&#160;protected]</span></a>
+<a href="mailto:"><span class="fa fa-paper-plane mr-1"></span> <span>[email&#160;protected]</span></a>
 </p>
 </div>
 <div class="col-md-6 d-flex justify-content-md-end">
