@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteRule ^akiba$ index.php
+RewriteRule ^about$ about.php
+RewriteRule ^blog$ blog.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^team$ counselor.php
+RewriteRule ^service$ services.php
+
