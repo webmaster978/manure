@@ -41,9 +41,9 @@
 <div class="row no-gutters slider-text align-items-center">
 <div class="col-md-6 ftco-animate d-flex align-items-end">
 <div class="text w-100">
-<h1 class="mb-4 text text-success">Counseling For Your Better Life</h1>
-<p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-<p><a href="#" class="btn btn-primary py-3 px-4">Contact us</a> <a href="#" class="btn btn-white py-3 px-4">Read more</a></p>
+<!-- <h1 class="btn btn-primary">Counseling For Your Better Life</h1> -->
+<!-- <p class="mb-4 text-primary">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
+<p><a href="#" class="btn btn-primary py-3 px-4">Contactez nous</a> <a href="#" class="btn btn-white py-3 px-4">Voir plus</a></p>
 </div>
 </div>
 
@@ -59,8 +59,8 @@
 <span class="flaticon-checklist"></span>
 </div>
 <div class="text">
-<h2>100% Confidential</h2>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+<h2>Vision</h2>
+<p>Le bien-etre de toutes les communautes vivant dans notre rayon d'action.</p>
 </div>
 </div>
 </div>
@@ -70,8 +70,8 @@
 <span class="flaticon-employee"></span>
 </div>
 <div class="text">
-<h2>Qualified Team</h2>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+<h2>Mission</h2>
+<p>Prone pour la reduction optimale de la misere dans nos communaute.</p>
 </div>
 </div>
 </div>
@@ -81,8 +81,8 @@
 <span class="flaticon-umbrella"></span>
 </div>
 <div class="text">
-<h2>Individual Approach</h2>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+<h2>Objectif</h2>
+<p>Lutte contre la pauvreter et les et les injustices socials pour promouvoir le devellopement durable dans la paix.</p>
 </div>
 </div>
 </div>
