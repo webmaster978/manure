@@ -3,13 +3,11 @@
 
 <!-- Mirrored from preview.colorlib.com/theme/counselor/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 05:48:20 GMT -->
 <head>
-<title>Counselor - Free Bootstrap 4 Template by Colorlib</title>
+<title>About</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css" />
+<?php include 'part/_link.php'; ?>
 </head>
+
 <body>
 <div class="wrap">
 <div class="container">
@@ -55,7 +53,7 @@
 <div class="container">
 <div class="row no-gutters slider-text align-items-end justify-content-center">
 <div class="col-md-9 ftco-animate mb-5 text-center">
-<p class="breadcrumbs mb-0"><span class="mr-2"><a href="akiba">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
+<p class="breadcrumbs mb-0"><span class="mr-2"><a href="akiba">Acceuil <i class="fa fa-chevron-right"></i></a></span> <span>A propos <i class="fa fa-chevron-right"></i></span></p>
 <h1 class="mb-0 bread">A propos de nous</h1>
 </div>
 </div>
@@ -64,7 +62,7 @@
 <section class="ftco-section ftco-no-pb ftco-no-pt">
 <div class="container">
 <div class="row">
-<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image:url(images/xabout-1.jpg.pagespeed.ic.EXhrSjRLu-.jpg)">
+<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image:url(img/16.jpg)">
 </div>
 <div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
 <div class="heading-section py-md-5">
@@ -72,10 +70,7 @@
 <h2 class="mb-4">Best Counseling Funding Network Worldwide.</h2>
 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-<a href="https://vimeo.com/45830194" class="play-video popup-vimeo d-flex align-items-center mt-4">
-<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-play"></span></div>
-<span class="watch">Watch Our Consultant Video</span>
-</a>
+
 </div>
 </div>
 </div>
@@ -87,32 +82,32 @@
 <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
 <div class="block-18 py-4 mb-4">
 <div class="text align-items-center">
-<strong class="number" data-number="3000">0</strong>
-<span>Our Satisfied &amp; Happy Customers</span>
+<strong class="number" data-number="600">0</strong>
+<span>Clients</span>
 </div>
 </div>
 </div>
 <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
 <div class="block-18 py-4 mb-4">
 <div class="text align-items-center">
-<strong class="number" data-number="30">0</strong>
-<span>Years of Experience In Business</span>
+<strong class="number" data-number="6">0</strong>
+<span>Ans d'experience</span>
 </div>
 </div>
 </div>
 <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
 <div class="block-18 py-4 mb-4">
 <div class="text align-items-center">
-<strong class="number" data-number="200">0</strong>
-<span>Our Qualified Counselor</span>
+<strong class="number" data-number="10">0</strong>
+<span>Agents de bureau</span>
 </div>
 </div>
 </div>
 <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
 <div class="block-18 py-4 mb-4">
 <div class="text align-items-center">
-<strong class="number" data-number="40">0</strong>
-<span>Services Points</span>
+<strong class="number" data-number="5">0</strong>
+<span>Services</span>
 </div>
 </div>
 </div>
@@ -120,63 +115,21 @@
 </div>
 </section>
 <section class="ftco-section testimony-section">
-<div class="img img-bg border" style="background-image: url(images/bg_4.jpg);"></div>
+<div class="img img-bg border" style="background-image: url(img/12.jpg);"></div>
 <div class="overlay"></div>
 <div class="container">
 <div class="row justify-content-center mb-5">
 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
 <span class="subheading">Testimonial</span>
-<h2 class="mb-3">Happy Clients</h2>
+<h2 class="mb-3">Clients satuisfaits</h2>
 </div>
 </div>
 <div class="row ftco-animate">
 <div class="col-md-12">
 <div class="carousel-testimony owl-carousel ftco-owl">
-<div class="item">
-<div class="testimony-wrap py-4">
-<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-<div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<div class="d-flex align-items-center">
-<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-<div class="pl-3">
-<p class="name">Roger Scott</p>
-<span class="position">Marketing Manager</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="testimony-wrap py-4">
-<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-<div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<div class="d-flex align-items-center">
-<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-<div class="pl-3">
-<p class="name">Roger Scott</p>
-<span class="position">Marketing Manager</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="testimony-wrap py-4">
-<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-<div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<div class="d-flex align-items-center">
-<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-<div class="pl-3">
-<p class="name">Roger Scott</p>
-<span class="position">Marketing Manager</span>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+
+
 <div class="item">
 <div class="testimony-wrap py-4">
 <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
@@ -272,11 +225,11 @@
 <script src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.thsj8F_sbV.js"></script><script>eval(mod_pagespeed_uMNo4risex);</script>
 <script>eval(mod_pagespeed_veeYaXkxVX);</script>
 <script>eval(mod_pagespeed_YLBUkqL3Ci);</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script> -->
 <script>eval(mod_pagespeed_3dI32cF92X);</script>
 <script>eval(mod_pagespeed_6JMgnU0XKP);</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<!-- 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script> -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -284,8 +237,8 @@
 
   gtag('config', 'UA-23581568-13');
 </script>
-<script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a18303fc56e0532","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.10.0","si":100}'></script>
-<script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a18303fb9980532","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.10.0","si":100}'></script>
+<script defer src="js/beacon.min.js" data-cf-beacon='{"rayId":"6a18303fc56e0532","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.10.0","si":100}'></script>
+<script defer src="js/beacon.min.js" data-cf-beacon='{"rayId":"6a18303fb9980532","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.10.0","si":100}'></script>
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/counselor/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 05:48:23 GMT -->

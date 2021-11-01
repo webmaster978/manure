@@ -52,7 +52,7 @@
 <ul>
 <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
 <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text"><span class="__cf_email__" data-cfemail="2b42454d446b52445e594f44464a424505484446">[email&#160;protected]</span></span></a></li>
+<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">akibamanur@akibamaur.com</span></span></a></li>
 </ul>
 </div>
 </div>
@@ -63,8 +63,8 @@
 <div class="container">
 <div class="row">
 <div class="col-md-12">
-<p class="mb-0" style="color: rgba(255,255,255,.5);">
-Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> 2020 - <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib.com</a>
+<p class="mb-0" style="color: rgba(255,255,255,.5); text-align: center;">
+Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> 2020 - <script>document.write(new Date().getFullYear());</script> All rights reserved by akiba_manure
 </p>
 </div>
 </div>
