@@ -1,24 +1,19 @@
-<!DOCTYPE html>
+sss<!DOCTYPE html>
 <html lang="en">
 
 <!-- Mirrored from preview.colorlib.com/theme/counselor/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 05:48:31 GMT -->
 <head>
-<title>Counselor - Free Bootstrap 4 Template by Colorlib</title>
+<title>Blog</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/A.animate.css%2bowl.carousel.min.css%2bowl.theme.default.min.css%2bmagnific-popup.css%2bflaticon.css%2bstyle.css%2cMcc.tEAbUIjGTj.css.pagespeed.cf.swv2" />
+<?php include 'part/_link.php'; ?>
 </head>
+
 <body>
 <div class="wrap">
 <div class="container">
 <div class="row">
 <div class="col-md-6 d-flex align-items-center">
-<p class="mb-0 phone pl-md-2">
-<a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a>
-<a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__" data-cfemail="92ebfde7e0f7fff3fbfed2f7fff3fbfebcf1fdff">[email&#160;protected]</span></a>
-</p>
+<?php include 'part/_phone.php'; ?>
 </div>
 <div class="col-md-6 d-flex justify-content-md-end">
 <div class="social-media">
@@ -60,8 +55,8 @@
 <div class="container">
 <div class="row no-gutters slider-text align-items-end justify-content-center">
 <div class="col-md-9 ftco-animate mb-5 text-center">
-<p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Blog <i class="fa fa-chevron-right"></i></span></p>
-<h1 class="mb-0 bread">Our Blog</h1>
+<p class="breadcrumbs mb-0"><span class="mr-2"><a href="akiba">Home <i class="fa fa-chevron-right"></i></a></span> <span>Blog <i class="fa fa-chevron-right"></i></span></p>
+<h1 class="mb-0 bread">Nos Blogs</h1>
 </div>
 </div>
 </div>
@@ -81,147 +76,13 @@
 <span class="yr">2020</span>
 </div>
 </div>
+
 <h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 </div>
 </div>
 </div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image:url(images/ximage_3.jpg.pagespeed.ic.CWHmT1gFhf.jpg)">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a mb-3></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_5.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_6.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a mb-3></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_7.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_8.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_9.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a mb-3></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
+
 </div>
 <div class="row mt-5">
 <div class="col text-center">
@@ -229,10 +90,7 @@
 <ul>
 <li><a href="#">&lt;</a></li>
 <li class="active"><span>1</span></li>
-<li><a href="#">2</a></li>
-<li><a href="#">3</a></li>
-<li><a href="#">4</a></li>
-<li><a href="#">5</a></li>
+
 <li><a href="#">&gt;</a></li>
 </ul>
 </div>
@@ -326,11 +184,11 @@ Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728
 <script src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.thsj8F_sbV.js"></script><script>eval(mod_pagespeed_uMNo4risex);</script>
 <script>eval(mod_pagespeed_veeYaXkxVX);</script>
 <script>eval(mod_pagespeed_YLBUkqL3Ci);</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script> -->
 <script>eval(mod_pagespeed_3dI32cF92X);</script>
 <script>eval(mod_pagespeed_6JMgnU0XKP);</script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script> -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -338,8 +196,8 @@ Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728
 
   gtag('config', 'UA-23581568-13');
 </script>
-<script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a183050e4ccac76","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.10.0","si":100}'></script>
-<script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6a183050de29ac76","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.10.0","si":100}'></script>
+<script defer src="js/beacon.min.js" data-cf-beacon='{"rayId":"6a183050e4ccac76","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.10.0","si":100}'></script>
+<script defer src="js/beacon.min.js" data-cf-beacon='{"rayId":"6a183050de29ac76","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.10.0","si":100}'></script>
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/counselor/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Oct 2021 05:48:38 GMT -->

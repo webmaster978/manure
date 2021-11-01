@@ -5,11 +5,7 @@
 <head>
 <title>Akiba_manur</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css" />
-<link rel="icon" type="img/jpg" href="img/ok.jpg">
+<?php include 'part/_link.php'; ?>
 </head>
 <body>
 <div class="wrap">
@@ -33,15 +29,23 @@
 </div>
 <?php include'part/_nav.php'; ?>
 
-<div class="hero-wrap" style="background-image: url('img/16.jpg');" data-stellar-background-ratio="0.5">
-<div class="overlay"></div>
+<div class="hero-wrap" style="background-image: url('img/8.jpg');" data-stellar-background-ratio="0.5">
+
+<div class="overlay">
+	
+
+</div>
+
 <div class="container">
 <div class="row no-gutters slider-text align-items-center">
-<div class="col-md-6 ftco-animate d-flex align-items-end">
+
+<div class="col-md-12 ftco-animate d-flex align-items-end">
+	<h1 style="color:rgb(88, 145, 103); margin-top: -1000px;">Bienvenues</h1>
 <div class="text w-100">
+
 <!-- <h1 class="btn btn-primary">Counseling For Your Better Life</h1> -->
 <!-- <p class="mb-4 text-primary">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-<p><a href="#" class="btn btn-primary py-3 px-4">Contactez nous</a> <a href="#" class="btn btn-white py-3 px-4">Voir plus</a></p>
+<!-- <p><a href="#" class="btn btn-primary py-3 px-4">Contactez nous</a> <a href="#" class="btn btn-white py-3 px-4">Voir plus</a></p> -->
 </div>
 </div>
 
@@ -138,11 +142,11 @@
 <section class="ftco-section ftco-no-pb ftco-no-pt">
 <div class="container">
 <div class="row">
-<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about-1.jpg);">
+<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(img/12.jpg);">
 </div>
 <div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
 <div class="heading-section">
-<span class="subheading">Welcome to Counselor</span>
+<span class="subheading">Bienvenue sur akiba_manure</span>
 <h2 class="mb-4">Best Counseling Funding Network Worldwide.</h2>
 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
@@ -159,8 +163,8 @@
 <div class="container">
 <div class="row justify-content-center mb-5">
 <div class="col-md-8 text-center heading-section ftco-animate">
-<span class="subheading">Our Services</span>
-<h2 class="mb-3">We Can Help You With This Situation</h2>
+<span class="subheading">Nos domaines d'intervention</span>
+<h2 class="mb-3">Nous intervenons dans plusieurs domaines</h2>
 </div>
 </div>
 <div class="row tabulation mt-4 ftco-animate">
@@ -189,32 +193,32 @@
 <div class="col-md-8">
 <div class="tab-content">
 <div class="tab-pane container p-0 active" id="services-1">
-<div class="img" style="background-image: url(images/services-1.jpg);"></div>
+<div class="img" style="background-image: url(img/16.jpg);"></div>
 <h3><a href="#">Relation Problem</a></h3>
 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 </div>
 <div class="tab-pane container p-0 fade" id="services-2">
-<div class="img" style="background-image: url(images/services-2.jpg);"></div>
+<div class="img" style="background-image: url(img/8.jpg);"></div>
 <h3><a href="#">Couples Counseling</a></h3>
 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 </div>
 <div class="tab-pane container p-0 fade" id="services-3">
-<div class="img" style="background-image:url(images/xservices-3.jpg.pagespeed.ic.pkrYkyEz60.jpg)"></div>
+<div class="img" style="background-image:url(img/6.jpg)"></div>
 <h3><a href="#">Depression Treatment</a></h3>
 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 </div>
 <div class="tab-pane container p-0 fade" id="services-4">
-<div class="img" style="background-image:url(images/xservices-4.jpg.pagespeed.ic.8RVojjqZGm.jpg)"></div>
+<div class="img" style="background-image:url(img/32.jpg)"></div>
 <h3><a href="#">Family Problem</a></h3>
 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 </div>
 <div class="tab-pane container p-0 fade" id="services-5">
-<div class="img" style="background-image:url(images/services-5.jpg)"></div>
+<div class="img" style="background-image:url(img/12.jpg)"></div>
 <h3><a href="#">Personal Problem</a></h3>
 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 </div>
 <div class="tab-pane container p-0 fade" id="services-6">
-<div class="img" style="background-image:url(images/xservices-6.jpg.pagespeed.ic.T5mEu-Yfpb.jpg)"></div>
+<div class="img" style="background-image:url(img/16.jpg)"></div>
 <h3><a href="#">Business Problem</a></h3>
 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 </div>
@@ -236,51 +240,9 @@
 <div class="row ftco-animate">
 <div class="col-md-12">
 <div class="carousel-testimony owl-carousel ftco-owl">
-<div class="item">
-<div class="testimony-wrap py-4">
-<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-<div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<div class="d-flex align-items-center">
-<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
-<div class="pl-3">
-<p class="name">Roger Scott</p>
-<span class="position">Marketing Manager</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="testimony-wrap py-4">
-<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-<div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<div class="d-flex align-items-center">
-<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-<div class="pl-3">
-<p class="name">Roger Scott</p>
-<span class="position">Marketing Manager</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="testimony-wrap py-4">
-<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
-<div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<div class="d-flex align-items-center">
-<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-<div class="pl-3">
-<p class="name">Roger Scott</p>
-<span class="position">Marketing Manager</span>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+
+
 <div class="item">
 <div class="testimony-wrap py-4">
 <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></div>
@@ -327,12 +289,12 @@
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" class="form-control" placeholder="Your Name">
+<input type="text" class="form-control" name="nom" placeholder="Votre nom">
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" class="form-control" placeholder="Email">
+<input type="number" class="form-control" placeholder="+243 xxx xxx xxx">
 </div>
 </div>
 <div class="col-md-12">
@@ -340,7 +302,7 @@
 <div class="form-field">
 <div class="select-wrap">
 
-<input type="text" class="form-control" placeholder="Email">
+<input type="text" class="form-control" placeholder="Votre adresse mail">
 </div>
 </div>
 </div>
@@ -366,44 +328,10 @@
 <div class="row justify-content-center mb-5">
 <div class="col-md-7 heading-section text-center ftco-animate">
 <span class="subheading">Blog</span>
-<h2>Recent Blog</h2>
+<h2>Blogs recents</h2>
 </div>
 </div>
-<div class="row d-flex">
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_1.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<div class="text text-center">
-<a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');">
-</a>
-<div class="meta text-center mb-2 d-flex align-items-center justify-content-center">
-<div>
-<span class="day">18</span>
-<span class="mos">April</span>
-<span class="yr">2020</span>
-</div>
-</div>
-<h3 class="heading mb-3"><a href="#">Social Media Risks To Mental Health</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
+
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
 <div class="text text-center">
@@ -438,11 +366,11 @@
 <script src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.thsj8F_sbV.js"></script><script>eval(mod_pagespeed_uMNo4risex);</script>
 <script>eval(mod_pagespeed_veeYaXkxVX);</script>
 <script>eval(mod_pagespeed_YLBUkqL3Ci);</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script> -->
 <script>eval(mod_pagespeed_3dI32cF92X);</script>
 <script>eval(mod_pagespeed_6JMgnU0XKP);</script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script> -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

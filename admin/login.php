@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>FixedPlus - Bootstrap Admin Dashboard Template</title>
+        <title>Login</title>
 
         <!-- Common Plugins -->
         <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,22 +34,22 @@
                     <div class="row justify-content-center">
                         <div class="col-4">
                               <div class="misc-header text-center">
-								<img alt="" src="assets/img/icon.png" class="logo-icon margin-r-10">
-								<img alt="" src="assets/img/logo-dark.png" class="toggle-none hidden-xs">
+								<img width="100px" alt="" src="../img/ok.JPG" class="logo-icon margin-r-10">
+								<!-- <img alt="" src="assets/img/logo-dark.png" class="toggle-none hidden-xs"> -->
                             </div>
                             <div class="misc-box">   
-                                <form role="form">
+                                <form role="form" action="verif.php" method="POST">
                                     <div class="form-group">                                      
                                         <label  for="exampleuser1">Username</label>
                                         <div class="group-icon">
-                                        <input id="exampleuser1" type="text" placeholder="Username" class="form-control" required="">
+                                        <input id="exampleuser1" type="text" name="username" placeholder="Username" class="form-control" required="">
                                         <span class="icon-user text-muted icon-input"></span>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Password</label>
                                         <div class="group-icon">
-                                        <input id="exampleInputPassword1" type="password" placeholder="Password" class="form-control">
+                                        <input id="exampleInputPassword1" type="password" name="password" placeholder="Password" class="form-control">
                                         <span class="icon-lock text-muted icon-input"></span>
                                         </div>
                                     </div>
@@ -61,16 +61,15 @@
 											</div>
                                         </div>
                                         <div class="float-right">
-                                            <button type="submit" class="btn btn-block btn-primary btn-rounded box-shadow">Login</button>
+                                            <button type="submit" class="btn btn-block btn-primary btn-rounded box-shadow">Se connecter</button>
                                         </div>
                                     </div>
                                     <hr>
-                                    <p class="text-center">Need to Signup?</p>
-                                    <a href="page-register.html" class="btn btn-block btn-success btn-rounded box-shadow">Register Now</a>
+                                    
                                 </form>
                             </div>
                             <div class="text-center misc-footer">
-                               <p>Copyright &copy; 2018 FixedPlus</p>
+                               <p>Copyright &copy; 2021 Akiba manure</p>
                             </div>
                         </div>
                     </div>
