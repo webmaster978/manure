@@ -1,6 +1,6 @@
-<?php require('config/database.php');
-if (empty($_SESSION['user'])) {
-    header('location:login.php');
+<?php// require('config/database.php');
+//if (empty($_SESSION['user'])) {
+//    header('location:login.php');
 }?>
 <div class="row">
 					<div class="col">
@@ -55,11 +55,11 @@ if (empty($_SESSION['user'])) {
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 									<img alt="" class="rounded-circle" src="assets/img/avtar-2.png" width="30">
 									<?php
-                                            if ($_SESSION['user']['username'] !== array()) {
-                                                $users = $_SESSION['user']['username'];
+                                           // if ($_SESSION['user']['username'] !== array()) {
+                                           //     $users = $_SESSION['user']['username'];
 
-                                                echo "$users";
-                                            }
+                                             //   echo "$users";
+                                           // }
                                             ?>
 								</a>
 								<ul class="dropdown-menu top-dropdown">

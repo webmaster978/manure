@@ -5,11 +5,11 @@
                         <img alt="profile" class="margin-b-10  " src="assets/img/avtar-2.png" width="80">
                         <p class="lead margin-b-0 toggle-none">
                             <?php
-                                            if ($_SESSION['user']['username'] !== array()) {
-                                                $users = $_SESSION['user']['username'];
+                                        //    if ($_SESSION['user']['username'] !== array()) {
+                                         //       $users = $_SESSION['user']['username'];
 
-                                                echo "$users";
-                                            }
+                                         //       echo "$users";
+                                          //  }
                                             ?>
                         </p>
                         <p class="text-muted mv-0 toggle-none">Bienvenue</p>						
@@ -25,6 +25,7 @@
                                 <li class="nav-item"><a class="nav-link" href="#">Nos blogs</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item"><a class="nav-link" href="qr/"><i class="fa fa-money"></i> <span class="toggle-none">Operation</span></a></li>
 					 
                         
                     </ul>
