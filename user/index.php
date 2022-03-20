@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Admin</title>
+        <title>Dashboard</title>
 		<?php include '../partials/_linka.php'; ?>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,9 +57,9 @@
 						<li class="breadcrumb-item active">Dashboard</li>
 					</ol>
 				</div>
-				<div class="col-lg-6 align-self-center text-right">
+				<!-- <div class="col-lg-6 align-self-center text-right">
 					<a href="#" class="btn btn-success box-shadow btn-icon btn-rounded"><i class="fa fa-plus"></i> Create New</a>
-				</div>
+				</div> -->
 		</div>
 		
         <section class="main-content">
@@ -76,8 +76,8 @@
 							<div class="progress margin-b-10  progress-mini">
 								<div style="width:50%;" class="progress-bar bg-primary"></div>
 							</div>
-							<p class="text-muted float-left margin-b-0">Change</p>
-							<p class="text-muted float-right margin-b-0">50%</p>
+							<!-- <p class="text-muted float-left margin-b-0">Change</p>
+							<p class="text-muted float-right margin-b-0">50%</p> -->
                         </div>
                     </div>
                 </div>
@@ -93,8 +93,8 @@
 							<div class="progress margin-b-10 progress-mini">
 								<div style="width:45%;" class="progress-bar bg-indigo"></div>
 							</div>
-							<p class="text-muted float-left margin-b-0">Change</p>
-							<p class="text-muted float-right margin-b-0">450%</p>
+							<!-- <p class="text-muted float-left margin-b-0">Change</p>
+							<p class="text-muted float-right margin-b-0">450%</p> -->
                         </div>
                     </div>
                 </div>
@@ -110,8 +110,8 @@
 							<div class="progress margin-b-10 progress-mini">
 								<div style="width:85%;" class="progress-bar bg-success"></div>
 							</div>
-							<p class="text-muted float-left margin-b-0">Change</p>
-							<p class="text-muted float-right margin-b-0">85%</p>
+							<!-- <p class="text-muted float-left margin-b-0">Change</p>
+							<p class="text-muted float-right margin-b-0">85%</p> -->
                         </div>
                     </div>
                 </div>
@@ -127,8 +127,8 @@
 							<div class="progress margin-b-10 progress-mini">
 								<div style="width:38%;" class="progress-bar bg-warning"></div>
 							</div>
-							<p class="text-muted float-left margin-b-0">Change</p>
-							<p class="text-muted float-right margin-b-0">38%</p>
+						<!-- 	<p class="text-muted float-left margin-b-0">Change</p>
+							<p class="text-muted float-right margin-b-0">38%</p> -->
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
 			
 
 				
-          <?php include '../partials/_foot.php'; ?>
+           <?php include '../partials/_foot.php'; ?>
 
         </section>
         <!-- ============================================================== -->
