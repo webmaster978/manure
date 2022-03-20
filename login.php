@@ -114,9 +114,9 @@
                     <div class="row justify-content-center">
                         <div class="col-4">
                               <div class="misc-header text-center">
-                                <h1><strong>UNIGOM-RH-MANAGER</strong></h1>
+                                <h1><strong>AKIBA MANUR</strong></h1>
 								
-								<img width="100px;" src="assets/img/L.png" class="toggle-none hidden-xs">
+								<img width="100px;" src="assets/img/" class="toggle-none hidden-xs">
                             </div>
                             <div class="misc-box"> 
                             <div id="errorConnection" style="margin-top: 30px; margin-bottom: 30px">
@@ -159,7 +159,7 @@
                                 </form>
                             </div>
                             <div class="text-center misc-footer">
-                               <p>Copyright &copy; 2021 UNIGOM-HR-MANAGER</p>
+                               <p>Copyright &copy; 2021 Akiba_manur</p>
                             </div>
                         </div>
                     </div>

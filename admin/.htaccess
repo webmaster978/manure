@@ -4,3 +4,4 @@ RewriteRule ^card$ card.php
 RewriteRule ^pcard$ pcard.php
 RewriteRule ^user$ users.php
 RewriteRule ^acces$ acces.php
+RewriteRule ^membre$ membre.php
