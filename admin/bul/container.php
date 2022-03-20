@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="navbar-brand">UNIGOM-RH-MANAGER</a>
+          <a href="#" class="navbar-brand">AKIBA MANUR</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

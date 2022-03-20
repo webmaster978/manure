@@ -11,7 +11,7 @@ include('header.php');
 			<div class="col-md-3">
 		        <form class="form-horizontal" method="post" id="codeForm" action="generate_code.php" onsubmit="return false">
 		            <div class="form-group">
-		            	<label class="control-label">Selectionner un agent : </label>
+		            	<label class="control-label">Selectionner un client : </label>
 		            	<?php 
        include 'db.php';
 $requete=$db->query("SELECT * FROM tbl_agent"); ?>
