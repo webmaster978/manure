@@ -5,4 +5,5 @@ RewriteRule ^blog$ blog.php
 RewriteRule ^contact$ contact.php
 RewriteRule ^team$ counselor.php
 RewriteRule ^service$ services.php
+RewriteRule ^login$ login.php
 
