@@ -32,21 +32,21 @@
 
  <div class="row">
 <div class="col-md-2">
-<img width="100px;" src="img/L.PNG" alt="">
+<img width="150px;" src="../img/ok.jpg" alt="">
 </div>
 <div class="col-md-8">
-<h1 class="text-primary text-center">UNIVERSITE DE GOMA</h1>
-<h1 class="text-primary text-center">UNIGOM</h1>
+<h1 class="text-primary text-center">Akiba manur</h1>
+<h1 class="text-primary text-center">GOMA</h1>
 </div>
 <div class="col-md-2">
-<img width="100px;" src="img/dddd.PNG" alt="">
+<img width="150px;" src="img/dddd.PNG" alt="">
 </div>
  </div>
 
  <div class="row">
    <div class="col-md-12">
   <div class="text-center">
-  <h3>CARTE DE SERVICE || SERVICE CARD</h3>
+  <h3>CARTE DE MEMBRE || MEMBRE CARD</h3>
   </div>
    </div>
  </div>
@@ -56,10 +56,10 @@
  <br>
  <div class="row">
  <div class="col-md-6">
- <h3 style="text-align:center;">Matricule UNIGOM-<?=($carte->STUDENTID); ?></h3>
+ <h3 style="text-align:center;">Matricule<?=($carte->STUDENTID); ?></h3>
  
  <h3 style="text-align:center;">Noms : <?=ucwords($carte->nom_complet); ?></h3>
- <h3 style="text-align:center;">Domaine : <?=ucwords($carte->ref_domaine); ?></h3>
+ 
  </div>
  <div class="col-md-2">
    
@@ -80,7 +80,7 @@
    <br>
    <br>
   
-   Recteur
+   Coordonnateur
    </div>
    <div class="col-md-6">
     <h4>REPUBLIQUE DEMOCRATIQUE DU CONGO</h4>

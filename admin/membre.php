@@ -194,7 +194,7 @@ if(imgup()){
 		
         <div class="row page-header">
 			<div class="col-lg-6 align-self-center ">
-			    <h2>Nos agents</h2>
+			    <h2>Nos membres</h2>
 				
 			</div>
 		</div>
@@ -207,7 +207,7 @@ if(imgup()){
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header card-default">
-                          Liste des agents
+                          Liste des membres
                           <div class="col" align="right">
                           <button type="button" class="btn btn-success btn-circle" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-plus"></i></button>
                                     
@@ -330,7 +330,7 @@ if(imgup()){
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Agent <?= $g['nom_complet']; ?> </h5>
+        <h5 class="modal-title" id="staticBackdropLabel">Membre <?= $g['nom_complet']; ?> </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -476,7 +476,7 @@ if(imgup()){
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="fa fa-times"></span></button>
-                        <h5 class="modal-title" id="myModalLabel">Nouveau agent</h5>
+                        <h5 class="modal-title" id="myModalLabel">Nouveau Membre</h5>
                     </div>
                     <div class="modal-body">
                         <form action="" method="POST" enctype="multipart/form-data">
