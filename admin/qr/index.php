@@ -84,9 +84,9 @@
                             <tr>
                                 <td>Nom</td>
                                 <!-- <td>Identifiant</td> -->
-                                <td>Heure d'entree</td>
-                                <td>Heure de sortie</td>
+                                
                                 <td>Date</td>
+                                <td>Action</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -112,10 +112,9 @@
                         ?>
                             <tr>
                                 <td><?php echo $row['nom_complet'];?></td>
-                                <!-- <td><?php echo $row['STUDENTID'];?></td> -->
-                                <td><?php echo $row['TIMEIN'];?></td>
-                                <td><?php echo $row['TIMEOUT'];?></td>
+                               
                                 <td><?php echo $row['LOGDATE'];?></td>
+                                <td><a class="btn btn-primary" href="">Executer</a> </td>
                             </tr>
 
 

@@ -1,3 +1,3 @@
  <footer class="footer">
-                <span>Copyright &copy; 2021 UNIGOM-R-H-MANAGER</span>
+                <span>Copyright &copy; 2021 AKIBA MANUR</span>
             </footer>
