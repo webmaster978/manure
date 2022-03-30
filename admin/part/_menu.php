@@ -17,6 +17,7 @@
                             <li class="nav-item"><a class="nav-link" href="membre">Nouveau membre</a></li>
                                 <li class="nav-item"><a class="nav-link" href="bul/">Nouvel carte</a></li>
                                 <li class="nav-item"><a class="nav-link" href="card">Nos cartes</a></li>
+                                <li class="nav-item"><a class="nav-link" href="config">Configuration</a></li>
                                 
                             </ul>
                         </li>

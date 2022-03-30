@@ -482,7 +482,7 @@ if(imgup()){
                         <form action="" method="POST" enctype="multipart/form-data">
                           <div class="row">
                               <div class="col-md-6">
-                                <input class="form-control" type="text" name="nom_complet" placeholder="nom complet de l'agent" required="">
+                                <input class="form-control" type="text" name="nom_complet" placeholder="nom complet du membre" required="">
                               </div>
                               <div class="col-md-6">
                                  <select class="form-control" name="sexe" required="">
@@ -508,16 +508,7 @@ if(imgup()){
                                 <input class="form-control" type="text" name="adresse" placeholder="Lieu naissance" required="">
                               </div>
                               <div class="col-md-6">
-                                 <select class="form-control" name="ref_fonction" required="">
-
-                                   <option>-domaine-</option>
-                                  <?php $fatu=$db->query("SELECT * FROM fonct"); ?>
-                                                <?php while ($ff = $fatu->fetch()) { ?>
-                                 
-                                  <option value="<?= $ff['designation']; ?>"><?= $ff['designation']; ?></option>
-                                  <?php } ?>
-                                   
-                                 </select>
+                                 <input class="form-control" type="text" name="ref_fonction" placeholder="Tribut">
                               </div>
 
                           </div>
@@ -525,7 +516,7 @@ if(imgup()){
                            <div class="row">
                               <div class="col-md-6">
                                 <select class="form-control" name="ref_domaine" required="">
-                                   <option>-domaine-</option>
+                                   <option>-Type mutualite-</option>
                                   <?php $rdom=$db->query("SELECT * FROM domaine"); ?>
                                                 <?php while ($g = $rdom->fetch()) { ?>
                                  
@@ -535,7 +526,7 @@ if(imgup()){
                               </div>
                               <div class="col-md-6">
                                  <select class="form-control" name="ref_grade" required="">
-                                  <option>-grade-</option>
+                                  <option>-Montant-</option>
                                    <?php $recupgrade=$db->query("SELECT * FROM grade"); ?>
                                                 <?php while ($grade = $recupgrade->fetch()) { ?>
                                    
@@ -549,7 +540,7 @@ if(imgup()){
                            <div class="row">
                               <div class="col-md-6">
                                 <select class="form-control" name="ref_niveau" required="">
-                                  <option>-niveau-</option>
+                                  <option>-Zones-</option>
                                   <?php $recupniveau=$db->query("SELECT * FROM niveau"); ?>
                                                 <?php while ($niv = $recupniveau->fetch()) { ?>
                                   
@@ -559,6 +550,17 @@ if(imgup()){
                               </div>
                               <div class="col-md-6">
                                  <input class="form-control" type="email" name="email" placeholder="Email" required="">
+                              </div>
+
+                          </div>
+                          <br>
+                          <div class="row">
+                              <div class="col-md-6">
+                                <input class="form-control" type="text" name="tribut" placeholder="Tribut" required="">
+                              </div>
+                              <div class="col-md-6">
+                                 <input class="form-control" type="text" name="adresse" placeholder="adresse" required="">
+                                 
                               </div>
 
                           </div>
