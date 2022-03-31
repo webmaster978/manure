@@ -36,7 +36,7 @@
 		<!-- ============================================================== -->
     <?php  
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['sub'])) {
    function imgup()
 {
   
@@ -50,8 +50,9 @@ if (isset($_POST['submit'])) {
   $ref_domaine=htmlspecialchars($_POST['ref_domaine']);
   $ref_grade=htmlspecialchars($_POST['ref_grade']);
   $ref_niveau=htmlspecialchars($_POST['ref_niveau']);
-  $email=htmlspecialchars($_POST['email']);
+  $mail=htmlspecialchars($_POST['mail']);
   $etat_civil=htmlspecialchars($_POST['etat_civil']);
+  $tribut=htmlspecialchars($_POST['tribut']);
 
 
 
@@ -84,7 +85,7 @@ if(move_uploaded_file($_FILES['img']['tmp_name'],'../avatars/'.$url_img)){
                          Swal.fire({
                           icon: 'error',
                            title: 'Oops...',
-                      text: 'Cet agent existe deja!',
+                      text: 'Cet Client existe deja!',
                          footer: ''
                           })
                   </script>";
@@ -94,7 +95,7 @@ if(move_uploaded_file($_FILES['img']['tmp_name'],'../avatars/'.$url_img)){
           {
             if ($statement->rowCount() == 0 ) {
   
-            $req=$db->prepare('INSERT INTO tbl_agent(nom_complet,photo,sexe,numero_tel,date_naiss,adresse,ref_fonction,ref_domaine,ref_grade,ref_niveau,email,etat_civil) VALUES (:nom_complet,:photo,:sexe,:numero_tel,:date_naiss,:adresse,:ref_fonction,:ref_domaine,:ref_grade,:ref_niveau,:email,:etat_civil)');
+            $req=$db->prepare('INSERT INTO tbl_agent(nom_complet,photo,sexe,numero_tel,date_naiss,tribut,adresse,ref_fonction,ref_domaine,ref_grade,ref_niveau,email,etat_civil) VALUES (:nom_complet,:photo,:sexe,:numero_tel,:date_naiss,:tribut,:adresse,:ref_fonction,:ref_domaine,:ref_grade,:ref_niveau,:mail,:etat_civil)');
             $req->execute(array(
             'photo' => $_FILES['img']['name'],
             'nom_complet' => $nom_complet,
@@ -106,7 +107,8 @@ if(move_uploaded_file($_FILES['img']['tmp_name'],'../avatars/'.$url_img)){
             'ref_domaine' => $ref_domaine,
             'ref_grade' => $ref_grade,
             'ref_niveau' => $ref_niveau,
-            'email' => $email,
+            'mail' => $mail,
+            'tribut' => $tribut,
             'etat_civil' => $etat_civil
             ));
             
@@ -426,7 +428,7 @@ if(imgup()){
                                                   <td><?= $g['date_naiss']; ?></td>
                                                    <td><?= $g['adresse']; ?></td>
                                                    <td><?= $g['numero_tel']; ?></td>
-                                                   <td><?= $g['email']; ?></td>
+                                                   <td><?= $g['mail']; ?></td>
                                                    <td><?= $g['etat_civil']; ?></td>
                                                    <td><?= $g['sexe']; ?></td>
                                                    <td><img class="mage" src="../avatars/<?= $g['photo']; ?>"></td>
@@ -508,7 +510,7 @@ if(imgup()){
                                 <input class="form-control" type="text" name="adresse" placeholder="Lieu naissance" required="">
                               </div>
                               <div class="col-md-6">
-                                 <input class="form-control" type="text" name="ref_fonction" placeholder="Tribut">
+                                 <input class="form-control" type="text" name="tribut" placeholder="Tribut">
                               </div>
 
                           </div>
@@ -549,7 +551,7 @@ if(imgup()){
                                 </select>
                               </div>
                               <div class="col-md-6">
-                                 <input class="form-control" type="email" name="email" placeholder="Email" required="">
+                                 <input class="form-control" type="email" name="mail" placeholder="Email" required="">
                               </div>
 
                           </div>
@@ -587,9 +589,11 @@ if(imgup()){
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                        <button type="submit" name="submit" class="btn btn-primary">Enregistrer</button>
-                        </form>
+                        <input type="submit" name="sub" class="btn btn-primary" value="Enregistrer">
+                        <!-- <button type="submit" name="submit" class="btn btn-primary">Enregistrer</button> -->
+                        
                     </div>
+                    </form>
                 </div>
             </div>
         </div>

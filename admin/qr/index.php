@@ -114,7 +114,7 @@
                                 <td><?php echo $row['nom_complet'];?></td>
                                
                                 <td><?php echo $row['LOGDATE'];?></td>
-                                <td><a class="btn btn-primary" href="">Executer</a> </td>
+                                <td><a class="btn btn-primary" href="view.php?id=<?php echo $row['ID'];?>">Executer</a> </td>
                             </tr>
 
 
