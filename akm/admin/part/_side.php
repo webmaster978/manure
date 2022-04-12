@@ -1,5 +1,5 @@
 <?php	
- require '../config/database.php';
+ require '../../config/database.php';
  if (!isset($_SESSION['PROFILE']['id_utilisateur']) || $_SESSION['PROFILE']['designation'] != 'admin') {
 	header('location:../');
  }
