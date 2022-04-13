@@ -7,13 +7,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Profil</title>
-		<?php include '../partials/_linka.php'; ?>
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+		<?php include '../../partials/_linka.php'; ?>
+        
     </head>
     <body>
 
@@ -70,15 +65,15 @@
                             <hr>
                             <ul class="list-unstyled margin-b-0 text-center row">
                                 <li class="col-4">
-                                    <span class="font-600">Domaine</span>
+                                    <span class="font-600">Type mutualite</span>
                                     <p class="text-muted text-sm margin-b-0"><?= ucwords($user_infos->ref_domaine); ?></p>
                                 </li>
                                 <li class="col-4">
-                                    <span class="font-600">Grade</span>
+                                    <span class="font-600">Montant</span>
                                     <p class="text-muted text-sm margin-b-0"><?= ucwords($user_infos->ref_grade); ?></p>
                                 </li>
                                 <li class="col-4">
-                                    <span class="font-600">Niveau</span>
+                                    <span class="font-600">Zones</span>
                                     <p class="text-muted text-sm margin-b-0"><?= ucwords($user_infos->ref_niveau); ?></p>
                                 </li>
                             </ul>
@@ -158,7 +153,7 @@
 
             
 
-           <?php include '../partials/_foot.php'; ?>
+           <?php include '../../partials/_foot.php'; ?>
 
 
         </section>
@@ -170,7 +165,7 @@
 
 		
         <!-- Common Plugins -->
-       <?php include '../partials/_scripta.php'; ?>
+       <?php include '../../partials/_scripta.php'; ?>
 		
     </body>
 

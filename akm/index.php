@@ -15,7 +15,7 @@
             case 'admin':
                 header('location: ./admin/');
             break;
-            case 'agent':
+            case 'client':
                 header('location: ./user/');
             break;
             default:
@@ -64,6 +64,9 @@
                  case 'agent':
                 header('location: ./user/');
                  break;
+                 case 'client':
+                    header('location: ./user/');
+                break;
                 default:
                     header('location: ./');
                     die('aucune service');

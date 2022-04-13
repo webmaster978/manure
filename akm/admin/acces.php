@@ -115,7 +115,7 @@ if (isset($_POST['submit'])) {
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header card-default">
-                          Liste access des agents
+                          Liste access des membres
                           <div class="col" align="right">
                           <button type="button" class="btn btn-success btn-circle" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-plus"></i></button>
                                     

@@ -95,7 +95,7 @@ if(move_uploaded_file($_FILES['img']['tmp_name'],'../avatars/'.$url_img)){
           {
             if ($statement->rowCount() == 0 ) {
   
-            $req=$db->prepare('INSERT INTO tbl_agent(nom_complet,photo,sexe,numero_tel,date_naiss,tribut,adresse,ref_domaine,ref_grade,ref_niveau,email,etat_civil) VALUES (:nom_complet,:photo,:sexe,:numero_tel,:date_naiss,:tribut,:adresse,:ref_domaine,:ref_grade,:ref_niveau,:mail,:etat_civil)');
+            $req=$db->prepare('INSERT INTO tbl_agent(nom_complet,photo,sexe,numero_tel,date_naiss,tribut,adresse,ref_domaine,ref_grade,ref_niveau,mail,etat_civil) VALUES (:nom_complet,:photo,:sexe,:numero_tel,:date_naiss,:tribut,:adresse,:ref_domaine,:ref_grade,:ref_niveau,:mail,:etat_civil)');
             $req->execute(array(
             'photo' => $_FILES['img']['name'],
             'nom_complet' => $nom_complet,
@@ -253,7 +253,7 @@ if(imgup()){
                                                   <td><?= $g['date_naiss']; ?></td>
                                                    <td><?= $g['adresse']; ?></td>
                                                    <td><?= $g['numero_tel']; ?></td>
-                                                   <td><?= $g['email']; ?></td>
+                                                   <td><?= $g['mail']; ?></td>
                                                    <td><?= $g['etat_civil']; ?></td>
                                                    <td><?= $g['sexe']; ?></td>
                                                    <td><img class="mage" src="../avatars/<?= $g['photo']; ?>"></td>

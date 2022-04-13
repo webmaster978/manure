@@ -9,15 +9,15 @@
         <title>Offre</title>
 
         <!-- Common Plugins -->
-         <link rel="icon" type="img" href="../assets/img/L.png">
-        <link href="../assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+         <link rel="icon" type="img" href="../../assets/img/L.png">
+        <link href="../../assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		
         <!-- Wysihtml5 and Summernote -->
-        <link href="../assets/lib/wysihtml5/bootstrap-wysihtml5.css" rel="stylesheet">
-        <link href="../assets/lib/summernote/summernote.css" rel="stylesheet">
+        <link href="../../assets/lib/wysihtml5/bootstrap-wysihtml5.css" rel="stylesheet">
+        <link href="../../assets/lib/summernote/summernote.css" rel="stylesheet">
 		
         <!-- Custom Css-->
-        <link href="../assets/scss/style.css" rel="stylesheet">
+        <link href="../../assets/scss/style.css" rel="stylesheet">
 
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 		
@@ -201,32 +201,25 @@
 
 
         <!--Common plugins-->
-        <script src="../assets/lib/jquery/dist/jquery.min.js"></script>
-		<script src="../assets/lib/bootstrap/js/popper.min.js"></script>
-        <script src="../assets/lib/bootstrap/js/bootstrap.min.js"></script>		
-        <script src="../assets/lib/pace/pace.min.js"></script>
-        <script src="../assets/lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
-        <script src="../assets/lib/slimscroll/jquery.slimscroll.min.js"></script>
-        <script src="../assets/lib/nano-scroll/jquery.nanoscroller.min.js"></script>
-        <script src="../assets/lib/metisMenu/metisMenu.min.js"></script>
-        <script src="../assets/js/custom.js"></script>
+        <script src="../../assets/lib/jquery/dist/jquery.min.js"></script>
+		<script src="../../assets/lib/bootstrap/js/popper.min.js"></script>
+        <script src="../../assets/lib/bootstrap/js/bootstrap.min.js"></script>		
+        <script src="../../assets/lib/pace/pace.min.js"></script>
+        <script src="../../assets/lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+        <script src="../../assets/lib/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="../../assets/lib/nano-scroll/jquery.nanoscroller.min.js"></script>
+        <script src="../../assets/lib/metisMenu/metisMenu.min.js"></script>
+        <script src="../../assets/js/custom.js"></script>
       
 		<!-- Wysihtml5 and Summernote -->
-        <script src="../assets/lib/wysihtml5/wysihtml5-0.3.0.js"></script>
-        <script src="../assets/lib/wysihtml5/bootstrap-wysihtml5.js"></script>
-		
-        <script src="../assets/lib/summernote/summernote.js"></script>
-
-
          <!-- Datatables-->
-        <script src="../assets/lib/datatables/jquery.dataTables.min.js"></script>
-        <script src="../assets/lib/datatables/dataTables.responsive.min.js"></script>
+        <script src="../../assets/lib/datatables/jquery.dataTables.min.js"></script>
+        <script src="../../assets/lib/datatables/dataTables.responsive.min.js"></script>
 
-		<script src="../assets/lib/datatables/dataTables.buttons.min.js"></script>
-		<script src="../assets/lib/datatables/jszip.min.js"></script>
-		<script src="../assets/lib/datatables/pdfmake.min.js"></script>
-		<script src="../assets/lib/datatables/vfs_fonts.js"></script>
-		<script src="../assets/lib/datatables/buttons.html5.min.js"></script>
+		<script src="../../assets/lib/datatables/dataTables.buttons.min.js"></script>
+		<script src="../../assets/lib/datatables/jszip.min.js"></script>
+		<script src="../../assets/lib/datatables/vfs_fonts.js"></script>
+		<script src="../../assets/lib/datatables/buttons.html5.min.js"></script>
         <script>
              $(document).ready(function () {
                 $('#datatable').dataTable();

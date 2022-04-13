@@ -1,6 +1,6 @@
 <?php	
  require '../config/database.php';
- if (!isset($_SESSION['PROFILE']['id_utilisateur']) || $_SESSION['PROFILE']['designation'] != 'agent') {
+ if (!isset($_SESSION['PROFILE']['id_utilisateur']) || $_SESSION['PROFILE']['designation'] != 'client') {
 	header('location:../');
  }
  else {
@@ -19,7 +19,7 @@
 						<a class="admin-logo" href="dashboard">
 							<h1>
 								
-								<img width="40px;" src="../assets/img/L.png" class="toggle-none hidden-xs">
+								<img width="40px;" src="../../assets/img/L.png" class="toggle-none hidden-xs">
 							</h1>
 						</a>				
 						<div class="left-nav-toggle" >
@@ -63,7 +63,7 @@
 							</li>
 							<li class="dropdown avtar-dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-									<img alt="" class="rounded-circle" src="../assets/<?= $user_infos->photo; ?>" width="30">
+									<img alt="" class="rounded-circle" src="../avatars/<?= $user_infos->photo; ?>" width="30">
 									<?= ucwords($user_infos->nom_complet); ?>
 								</a>
 								<ul class="dropdown-menu top-dropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 60px, 0px); top: 0px; left: 0px; will-change: transform;">
