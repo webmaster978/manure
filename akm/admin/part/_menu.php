@@ -25,6 +25,9 @@
                            <a class="nav-link" href="user" aria-expanded="false"><i class="fa fa-user"></i> <span class="toggle-none">Utilisateurs</a> 
                         </li>
                         <li class="nav-item">
+                           <a class="nav-link" href="acces" aria-expanded="false"><i class="fa fa-key"></i> <span class="toggle-none">Acces</a> 
+                        </li>
+                        <li class="nav-item">
                            <a class="nav-link" href="qr/" aria-expanded="false"><i class="fa fa-money"></i> <span class="toggle-none">Operations</a> 
                         </li>
                      

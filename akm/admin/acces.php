@@ -9,7 +9,7 @@
         <title>Utilisateurs</title>
 
         <!-- Common Plugins -->
-       <?php include '../partials/_linko.php'; ?>
+       <?php include '../../partials/_linko.php'; ?>
     
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -203,7 +203,7 @@ if (isset($_POST['submit'])) {
 
             
 
-           <?php include '../partials/_foot.php'; ?>
+           <?php include '../../partials/_foot.php'; ?>
 
 
         </section>
@@ -214,7 +214,7 @@ if (isset($_POST['submit'])) {
 
 
         <!-- Common Plugins -->
-      <?php include '../partials/_scripto.php'; ?>
+      <?php include '../../partials/_scripto.php'; ?>
       
 
 

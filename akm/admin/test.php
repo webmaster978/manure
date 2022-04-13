@@ -1,7 +1,7 @@
 <?php  
 
 if (isset($_POST['sub'])) {
-   function imgup()
+   
 
   echo 'valide';
  

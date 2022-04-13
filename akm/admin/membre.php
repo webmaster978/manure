@@ -36,7 +36,7 @@
 		<!-- ============================================================== -->
     <?php  
 
-if (isset($_POST['sub'])) {
+if (isset($_POST['submit'])) {
    function imgup()
 {
   
@@ -46,7 +46,7 @@ if (isset($_POST['sub'])) {
   $numero_tel=htmlspecialchars($_POST['numero_tel']);
   $date_naiss=htmlspecialchars($_POST['date_naiss']);
   $adresse=htmlspecialchars($_POST['adresse']);
-  $ref_fonction=htmlspecialchars($_POST['ref_fonction']);
+ 
   $ref_domaine=htmlspecialchars($_POST['ref_domaine']);
   $ref_grade=htmlspecialchars($_POST['ref_grade']);
   $ref_niveau=htmlspecialchars($_POST['ref_niveau']);
@@ -95,7 +95,7 @@ if(move_uploaded_file($_FILES['img']['tmp_name'],'../avatars/'.$url_img)){
           {
             if ($statement->rowCount() == 0 ) {
   
-            $req=$db->prepare('INSERT INTO tbl_agent(nom_complet,photo,sexe,numero_tel,date_naiss,tribut,adresse,ref_fonction,ref_domaine,ref_grade,ref_niveau,email,etat_civil) VALUES (:nom_complet,:photo,:sexe,:numero_tel,:date_naiss,:tribut,:adresse,:ref_fonction,:ref_domaine,:ref_grade,:ref_niveau,:mail,:etat_civil)');
+            $req=$db->prepare('INSERT INTO tbl_agent(nom_complet,photo,sexe,numero_tel,date_naiss,tribut,adresse,ref_domaine,ref_grade,ref_niveau,email,etat_civil) VALUES (:nom_complet,:photo,:sexe,:numero_tel,:date_naiss,:tribut,:adresse,:ref_domaine,:ref_grade,:ref_niveau,:mail,:etat_civil)');
             $req->execute(array(
             'photo' => $_FILES['img']['name'],
             'nom_complet' => $nom_complet,
@@ -103,7 +103,7 @@ if(move_uploaded_file($_FILES['img']['tmp_name'],'../avatars/'.$url_img)){
             'numero_tel' => $numero_tel,
             'date_naiss' => $date_naiss,
             'adresse' => $adresse,
-            'ref_fonction' => $ref_fonction,
+            
             'ref_domaine' => $ref_domaine,
             'ref_grade' => $ref_grade,
             'ref_niveau' => $ref_niveau,
@@ -223,9 +223,9 @@ if(imgup()){
                                                     <th>#</th>
                                                     <th>NOM COMPLET</th>
                                                     <th>MATRICULE</th>
-                                                    <th>NIVEAU ETUDE</th>
-                                                    <th>GRADE</th>
-                                                    <th>DOMAINE FORMATION</th>
+                                                    <th>ZONE</th>
+                                                    <th>MONTANT</th>
+                                                    <th>TYPE DE MUTUALITE</th>
                                                     <th>DATE NAISSANCE</th>
                                                     <th>LIEU NAISSANCE</th>
                                                     <th>TELEPHONE</th>
@@ -237,186 +237,11 @@ if(imgup()){
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
-<?php $requete=$db->query("SELECT * FROM tbl_agent INNER JOIN fonct ON tbl_agent.ref_fonction=fonct.id_fonction"); ?>
+<?php $requete=$db->query("SELECT * FROM tbl_agent"); ?>
 
                                             <tbody>
                                               <?php while ($g = $requete->fetch()) { ?>
-
-
-                                                <div class="modal fade" id="exampleModal<?= $g['id_utilisateur']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modifier : <?= $g['nom_complet']; ?></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-                        <form action="" method="">
-                          <div class="row">
-                              <div class="col-md-6">
-                                <input class="form-control" type="text" name="" value="<?= $g['nom_complet']; ?>">
-                              </div>
-                              <div class="col-md-6">
-                              <img class="rounded rounded-circle" width="100px;" src="../avatars/<?= $g['photo']; ?>" />
-                              </div>
-
-                          </div>
-                          <br>
-                           <div class="row">
-                              <div class="col-md-6">
-                              <input type="text" name="" value="<?= $g['numero_tel']; ?>">
-                              </div>
-                              <div class="col-md-6">
-                              <input type="date" name="" value="<?= $g['date_naiss']; ?>">
-                              </div>
-
-                          </div>
-                          <br>
-                           <div class="row">
-                              <div class="col-md-6">
-                              <input type="text" name="" value="<?= $g['adresse']; ?>">
-                              </div>
-                              <div class="col-md-6">
-                              <label>Nom complet : </label> <h4><?= $g['nom_complet']; ?></h4>
-                              </div>
-
-                          </div>
-                          <br>
-                           <div class="row">
-                              <div class="col-md-6">
-                              <label>Nom complet : </label> <h4><?= $g['nom_complet']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              <label>Nom complet : </label> <h4><?= $g['nom_complet']; ?></h4>
-                              </div>
-
-                          </div>
-                          <br>
-                           <div class="row">
-                              <div class="col-md-6">
-                              <label>Nom complet : </label> <h4><?= $g['nom_complet']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              <label>Adresse mail : </label> <h4><?= $g['email']; ?></h4>
-                              </div>
-
-                          </div>
-                          <br>
-                           <div class="row">
-                              <div class="col-md-6">
-                              <label>Etat civil : </label> <h4><?= $g['etat_civil']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              
-                                 
-                              </div>
-
-                          </div>
-                          <br>
-                           
-                      
-                    </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-
-                                            
-                                                 <div class="modal fade" id="staticBackdrop<?= $g['id_utilisateur']; ?>" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Membre <?= $g['nom_complet']; ?> </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-                        <form action="" method="">
-                          <div class="row">
-                              <div class="col-md-6">
-                                <label>Nom complet : </label> <h4><?= $g['nom_complet']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              <img class="rounded rounded-circle" width="100px;" src="../avatars/<?= $g['photo']; ?>" />
-                              </div>
-
-                          </div>
-                        
-                           <div class="row">
-                              <div class="col-md-6">
-                              <label>Numero telephone : </label> <h4><?= $g['numero_tel']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              <label>Date naissance : </label> <h4><?= $g['date_naiss']; ?></h4>
-                              </div>
-
-                          </div>
-                         
-                           <div class="row">
-                              <div class="col-md-6">
-                              <label>Lieu naissance : </label> <h4><?= $g['adresse']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              <label>Domaine : </label> <h4><?= $g['ref_domaine']; ?></h4>
-                              </div>
-
-                          </div>
-                        
-                           <div class="row">
-                              <div class="col-md-6">
-                              <label>Fonction : </label> <h4><?= $g['ref_fonction']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              <label>Nom complet : </label> <h4><?= $g['nom_complet']; ?></h4>
-                              </div>
-
-                          </div>
-                          
-                           <div class="row">
-                              <div class="col-md-6">
-                              <label>Nom complet : </label> <h4><?= $g['nom_complet']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              <label>Adresse mail : </label> <h4><?= $g['email']; ?></h4>
-                              </div>
-
-                          </div>
-                          
-                           <div class="row">
-                              <div class="col-md-6">
-                              <label>Etat civil : </label> <h4><?= $g['etat_civil']; ?></h4>
-                              </div>
-                              <div class="col-md-6">
-                              
-                                 
-                              </div>
-
-                          </div>
-                          
-                           
-                      
-                    </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-        
-      </div>
-    </div>
-  </div>
-</div>
-      
-
-
-
-
-
-                                                
+                                               
                                                 <tr>
                                                     <td><?= $g['id_utilisateur']; ?></td>
                                                     
@@ -428,7 +253,7 @@ if(imgup()){
                                                   <td><?= $g['date_naiss']; ?></td>
                                                    <td><?= $g['adresse']; ?></td>
                                                    <td><?= $g['numero_tel']; ?></td>
-                                                   <td><?= $g['mail']; ?></td>
+                                                   <td><?= $g['email']; ?></td>
                                                    <td><?= $g['etat_civil']; ?></td>
                                                    <td><?= $g['sexe']; ?></td>
                                                    <td><img class="mage" src="../avatars/<?= $g['photo']; ?>"></td>
@@ -481,7 +306,7 @@ if(imgup()){
                         <h5 class="modal-title" id="myModalLabel">Nouveau Membre</h5>
                     </div>
                     <div class="modal-body">
-                        <form action="" method="POST" enctype="multipart/form-data">
+                    <form action="" method="POST" enctype="multipart/form-data">
                           <div class="row">
                               <div class="col-md-6">
                                 <input class="form-control" type="text" name="nom_complet" placeholder="nom complet du membre" required="">
@@ -589,7 +414,7 @@ if(imgup()){
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                        <input type="submit" name="sub" class="btn btn-primary" value="Enregistrer">
+                        <input type="submit" name="submit" class="btn btn-primary" value="Enregistrer">
                         <!-- <button type="submit" name="submit" class="btn btn-primary">Enregistrer</button> -->
                         
                     </div>

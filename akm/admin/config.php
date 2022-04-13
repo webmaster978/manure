@@ -9,7 +9,7 @@
         <title>Configuration</title>
 
         <!-- Common Plugins -->
-       <?php include '../partials/_linko.php'; ?>
+       <?php include '../../partials/_linko.php'; ?>
        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 		
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -453,7 +453,7 @@ if (isset($_POST['niv'])) {
 
             
 
-           <?php include '../partials/_foot.php'; ?>
+           <?php include '../../partials/_foot.php'; ?>
 
 
         </section>
@@ -464,7 +464,7 @@ if (isset($_POST['niv'])) {
 
 
         <!-- Common Plugins -->
-      <?php include '../partials/_scripto.php'; ?>
+      <?php include '../../partials/_scripto.php'; ?>
     </body>
 
 <!-- Mirrored from www.aksisweb.com/theme/fixed/layouts-1/table-data.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Feb 2021 22:29:11 GMT -->
