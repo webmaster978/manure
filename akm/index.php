@@ -1,6 +1,6 @@
 <?php
 
-    require './config/database.php';
+    require '../config/database.php';
     if(isset($_SESSION['PROFILE']['id_utilisateur'])) {
         switch ($_SESSION['PROFILE']['designation']) {
             case 'personnel':

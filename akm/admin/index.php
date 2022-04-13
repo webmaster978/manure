@@ -137,7 +137,7 @@
 			
 
 				
-          <?php include '../partials/_foot.php'; ?>
+          <?php include '../../partials/_foot.php'; ?>
 
         </section>
         <!-- ============================================================== -->
@@ -146,7 +146,7 @@
 
 		
         <!-- Common Plugins -->
-       <?php include '../partials/_scripta.php'; ?>
+       <?php include '../../partials/_scripta.php'; ?>
 		
     </body>
 
