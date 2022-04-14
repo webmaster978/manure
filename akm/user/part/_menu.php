@@ -38,7 +38,7 @@
                        
                         
                         <li class="nav-item">
-                           <a class="nav-link" href="offre" aria-expanded="false"><i class="fa fa-tasks"></i> <span class="toggle-none">Communiquer</a> 
+                           <a class="nav-link" href="communique" aria-expanded="false"><i class="fa fa-tasks"></i> <span class="toggle-none">Communiquer</a> 
                         </li>
                         <!-- <li class="nav-item">
                            <a class="nav-link" href="offre" aria-expanded="false"><i class="fa fa-tasks"></i> <span class="toggle-none">Cas sociaux</a> 

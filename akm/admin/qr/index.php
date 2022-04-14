@@ -138,7 +138,7 @@
                 ?>
 
 
-                <img width="100%" height="50%" style="border-radius:10px;" src="../avatars/<?php echo $row['photo'];?>"
+                <img width="100%" height="50%" style="border-radius:10px;" src="../../avatars/<?php echo $row['photo'];?>"
                     alt="photo agent">
                 <?php } ?>
             </div>

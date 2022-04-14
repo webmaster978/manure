@@ -84,7 +84,7 @@
                         
                         <div class="card-body">
                          <div class="row">
-                         <?php $requete=$db->query("SELECT * FROM offres ORDER BY id_o DESC"); ?>
+                         <?php $requete=$db->query("SELECT * FROM communique"); ?>
                          <?php while ($g = $requete->fetch()) { ?>
                            <div class="col-md-4">
                            <div class="card text-center">
