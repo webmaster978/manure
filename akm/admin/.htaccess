@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^dashboard$ index.php
+RewriteRule ^card$ card.php
+RewriteRule ^pcard$ pcard.php
+RewriteRule ^user$ users.php
+RewriteRule ^acces$ acces.php
+RewriteRule ^membres$ membres.php
+RewriteRule ^config$ config.php
+RewriteRule ^profil$ profil.php
+RewriteRule ^view$ view.php
