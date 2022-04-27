@@ -120,13 +120,28 @@
                     <div class="widget  bg-light">
                         <div class="row row-table ">
                             <div class="margin-b-30">
-								<h2 class="margin-b-5">Visitors</h2>
-								<p class="text-muted">Total Visitors</p>
-								<span class="float-right text-warning widget-r-m">98421</span>
+								<h2 class="margin-b-5">Nombre des depot</h2>
+								<p class="text-muted">Total Depot</p>
+								<?php 
+                        $service = $db->prepare('SELECT COUNT(*) AS id_depot FROM depot WHERE id_user=:id_user');
+$service->execute(array(
+  'id_user' => $_SESSION['PROFILE']['id_utilisateur']
+));
+
+$don = $service->fetchAll(PDO::FETCH_OBJ);
+foreach ($don as $s) :
+ 
+    ?>
+								<span class="float-right text-warning widget-r-m"><?= $s->id_depot; ?></span>
 							</div>
 							<div class="progress margin-b-10 progress-mini">
-								<div style="width:38%;" class="progress-bar bg-warning"></div>
+								<div style="width:<?= $s->id_depot; ?>%;" class="progress-bar bg-warning"></div>
 							</div>
+							<?php
+endforeach;
+
+
+?>
 						<!-- 	<p class="text-muted float-left margin-b-0">Change</p>
 							<p class="text-muted float-right margin-b-0">38%</p> -->
                         </div>
