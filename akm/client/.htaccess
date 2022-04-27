@@ -9,3 +9,4 @@ RewriteRule ^offre$ offre.php
 RewriteRule ^cand$ candidature.php
 RewriteRule ^suivie$ suivie.php
 RewriteRule ^conge$ conge.php
+RewriteRule ^historique$ historique.php

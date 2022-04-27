@@ -1,4 +1,4 @@
- <link rel="icon" type="img" href="../img/ok.jpg">
+ <link rel="icon" type="img" href="../../img/ok.jpg">
  <link href="../assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
  <link href="../assets/lib/toast/jquery.toast.min.css" rel="stylesheet">
 		

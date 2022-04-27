@@ -60,7 +60,8 @@ if (isset($_POST['payer'])) {
   $req=$db->prepare("INSERT INTO depot (id_user,montant,id_agent) VALUES (:id_user,:montant,:id_agent)");
 
   $res=$req->execute(array(
-    'id_agent' => $_SESSION['PROFILE']['id_utilisateur'],    
+    'id_agent' => $_SESSION['PROFILE']['id_utilisateur'],
+    
     'id_user' => $id_user,
     'montant' => $montant
     

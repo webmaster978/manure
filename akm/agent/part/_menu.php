@@ -17,13 +17,15 @@
                         <li class="nav-item">
                             <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-folder-o"></i> <span class="toggle-none">Mes donnees <span class="fa arrow"></span></span></a>
                             <ul class="nav-second-level nav flex-column " aria-expanded="false">
-								<li class="nav-item"><a class="nav-link" href="#">Mes taches</a></li>
-                                <li class="nav-item"><a class="nav-link" href="doc">Dossier</a></li>
-                                <li class="nav-item"><a class="nav-link" href="demande">demandes</a></li>
-                                <li class="nav-item"><a class="nav-link" href="conge">Conges</a></li>
-                                <li class="nav-item"><a class="nav-link" href="presence">Presences</a></li>
-                                <li class="nav-item"><a class="nav-link" href="tache">Evenements</a></li>
+								<li class="nav-item"><a class="nav-link" href="#">Communiques</a></li>
+                                
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="qr/" aria-expanded="false"><i class="fa fa-fire"></i> <span class="toggle-none">Operation</a> 
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="historique" aria-expanded="false"><i class="fa fa-book"></i> <span class="toggle-none">Operation</a> 
                         </li>
 
                        

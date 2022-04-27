@@ -17,7 +17,7 @@
                         <li class="nav-item">
                             <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-folder-o"></i> <span class="toggle-none">Mes donnees <span class="fa arrow"></span></span></a>
                             <ul class="nav-second-level nav flex-column " aria-expanded="false">
-								<li class="nav-item"><a class="nav-link" href="#">Historique</a></li>
+								<li class="nav-item"><a class="nav-link" href="historique">Historique</a></li>
                                 
                             </ul>
                         </li>
