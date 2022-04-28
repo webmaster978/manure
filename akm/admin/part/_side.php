@@ -18,8 +18,9 @@
 					<div class="col">
 						<a class="admin-logo" href="index.php">
 							<h1>
-								<img alt="" src="../assets/img/icon.png" class="logo-icon margin-r-10">
-								<img alt="" src="../assets/img/logo-dark.png" class="toggle-none hidden-xs">
+							
+								<img width="50px;" alt="" src="../../img/ok.jpg" class="toggle-none hidden-xs">
+								
 							</h1>
 						</a>				
 						<div class="left-nav-toggle" >

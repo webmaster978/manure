@@ -14,7 +14,7 @@
                         <li class="nav-item">
                             <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-users"></i> <span class="toggle-none">Agents <span class="fa arrow"></span></span></a>
                             <ul class="nav-second-level nav flex-column " aria-expanded="false">
-                            <li class="nav-item"><a class="nav-link" href="membres">Nos agents</a></li>
+                            <li class="nav-item"><a class="nav-link" href="agents">Nos agents</a></li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="bul/">Nouvel carte</a></li>
                                 <li class="nav-item"><a class="nav-link" href="card">Nos cartes</a></li>
                                 <li class="nav-item"><a class="nav-link" href="acces">Accees</a></li>
@@ -36,6 +36,9 @@
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="qr/" aria-expanded="false"><i class="fa fa-fire"></i> <span class="toggle-none">Operation</a> 
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#" aria-expanded="false"><i class="fa fa-book"></i> <span class="toggle-none">Historique</a> 
                         </li>
                      
                         

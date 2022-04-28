@@ -196,7 +196,7 @@ if(imgup()){
 		
         <div class="row page-header">
 			<div class="col-lg-6 align-self-center ">
-			    <h2>Nos membres</h2>
+			    <h2>Nos agents</h2>
 				
 			</div>
 		</div>
@@ -209,7 +209,7 @@ if(imgup()){
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header card-default">
-                          Liste des membres
+                          Liste des agents
                           <div class="col" align="right">
                           <button type="button" class="btn btn-success btn-circle" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-plus"></i></button>
                                     

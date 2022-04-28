@@ -8,3 +8,4 @@ RewriteRule ^membres$ membres.php
 RewriteRule ^config$ config.php
 RewriteRule ^profil$ profil.php
 RewriteRule ^view$ view.php
+RewriteRule ^agents$ agents.php
