@@ -1,5 +1,5 @@
 <?php 
-include '../../config/base.php';
+include '../../../config/base.php';
 if(isset($_POST) && !empty($_POST)) {
 	include('library/phpqrcode/qrlib.php'); 
 	$codesDir = "codes/";	

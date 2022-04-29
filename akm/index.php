@@ -13,6 +13,12 @@
             case 'admin':
                 header('location: ./admin/');
             break;
+            case 'it':
+                header('location: ./it/');
+                 break;
+                 case 'comptable':
+                    header('location: ./comptable/');
+                     break;
             
             default:
                 header('location: ./');
@@ -55,6 +61,12 @@
                  case 'agent':
                 header('location: ./agent/');
                  break;
+                 case 'it':
+                    header('location: ./it/');
+                     break;
+                     case 'comptable':
+                        header('location: ./comptable/');
+                         break;
                 default:
                     header('location: ./');
                     die('aucune service');

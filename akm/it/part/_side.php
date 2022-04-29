@@ -1,6 +1,6 @@
 <?php	
  require '../../config/database.php';
- if (!isset($_SESSION['PROFILE']['id_utilisateur']) || $_SESSION['PROFILE']['designation'] != 'admin') {
+ if (!isset($_SESSION['PROFILE']['id_utilisateur']) || $_SESSION['PROFILE']['designation'] != 'it') {
 	header('location:../');
  }
  else {

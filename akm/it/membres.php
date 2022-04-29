@@ -237,7 +237,7 @@ if(imgup()){
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
-<?php $requete=$db->query("SELECT * FROM tbl_agent INNER JOIN fonct ON tbl_agent.ref_fonction=fonct.id_fonction"); ?>
+                          <?php $requete=$db->query("SELECT * FROM tbl_agent INNER JOIN fonct ON tbl_agent.ref_fonction=fonct.id_fonction WHERE ref_fonction=2"); ?>
 
                                             <tbody>
                                               <?php while ($g = $requete->fetch()) { ?>
