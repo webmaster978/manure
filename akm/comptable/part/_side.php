@@ -1,6 +1,6 @@
 <?php	
  require '../../config/database.php';
- if (!isset($_SESSION['PROFILE']['id_utilisateur']) || $_SESSION['PROFILE']['designation'] != 'compatable') {
+ if (!isset($_SESSION['PROFILE']['id_utilisateur']) || $_SESSION['PROFILE']['designation'] != 'comptable') {
 	header('location:../');
  }
  else {

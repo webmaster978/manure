@@ -229,7 +229,7 @@ if (isset($_POST['payer'])) {
                               </div>
                               <div class="col-md-6">
                               <label for="">Montant a payer : <?=($carte->ref_grade); ?> FC </label>
-                              <input type="hidden" name="montant" value="<?=($carte->ref_grade); ?>">
+                              <input class="form-control" type="text" name="montant">
                               </div>
                               
 
