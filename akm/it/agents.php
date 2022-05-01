@@ -47,12 +47,11 @@ if (isset($_POST['submit'])) {
   $date_naiss=htmlspecialchars($_POST['date_naiss']);
   $adresse=htmlspecialchars($_POST['adresse']);
  $tribut = htmlspecialchars($_POST['tribut']);
-  $ref_domaine=htmlspecialchars($_POST['ref_domaine']);
-  $ref_grade=htmlspecialchars($_POST['ref_grade']);
+
   $ref_niveau=htmlspecialchars($_POST['ref_niveau']);
   $mail = htmlspecialchars($_POST['mail']);
   $etat_civil=htmlspecialchars($_POST['etat_civil']);
-  $secteur = htmlspecialchars($_POST['secteur']);
+  $fonction = htmlspecialchars($_POST['fonction']);
 
 
 
@@ -95,7 +94,7 @@ if(move_uploaded_file($_FILES['img']['tmp_name'],'../avatars/'.$url_img)){
           {
             if ($statement->rowCount() == 0 ) {
   
-            $req=$db->prepare('INSERT INTO tbl_agent(nom_complet,photo,sexe,numero_tel,date_naiss,tribut,adresse,ref_domaine,ref_grade,ref_niveau,mail,etat_civil,secteur) VALUES (:nom_complet,:photo,:sexe,:numero_tel,:date_naiss,:tribut,:adresse,:ref_domaine,:ref_grade,:ref_niveau,:mail,:etat_civil,:secteur)');
+            $req=$db->prepare('INSERT INTO tbl_agent(nom_complet,photo,sexe,numero_tel,date_naiss,tribut,adresse,ref_niveau,mail,etat_civil,fonction) VALUES (:nom_complet,:photo,:sexe,:numero_tel,:date_naiss,:tribut,:adresse,:ref_niveau,:mail,:etat_civil,:fonction)');
             $req->execute(array(
             'photo' => $_FILES['img']['name'],
             'nom_complet' => $nom_complet,
@@ -104,12 +103,11 @@ if(move_uploaded_file($_FILES['img']['tmp_name'],'../avatars/'.$url_img)){
             'date_naiss' => $date_naiss,
             'adresse' => $adresse,
              'tribut' => $tribut,
-            'ref_domaine' => $ref_domaine,
-            'ref_grade' => $ref_grade,
+            
             'ref_niveau' => $ref_niveau,
             'mail' => $mail,
             'etat_civil' => $etat_civil,
-            'secteur' => $secteur
+            'fonction' => $fonction
             ));
             
         
@@ -224,8 +222,7 @@ if(imgup()){
                                                     <th>NOM COMPLET</th>
                                                     <th>MATRICULE</th>
                                                     <th>ZONE</th>
-                                                    <!-- <th>MONTANT</th> -->
-                                                    <!-- <th>TYPE</th> -->
+                                                   
                                                     <th>DATE NAISSANCE</th>
                                                     <th>LIEU NAISSANCE</th>
                                                     <th>TELEPHONE</th>
@@ -248,8 +245,7 @@ if(imgup()){
                                                    <td><?= $g['nom_complet']; ?></td>
                                                    <td><?= $g['STUDENTID']; ?></td>
                                                    <td><?= $g['ref_niveau']; ?></td>
-                                                   <!-- <td><?= $g['ref_grade']; ?></td> -->
-                                                   <!-- <td><?= $g['ref_domaine']; ?></td> -->
+                                                   
                                                   <td><?= $g['date_naiss']; ?></td>
                                                    <td><?= $g['adresse']; ?></td>
                                                    <td><?= $g['numero_tel']; ?></td>
@@ -311,7 +307,7 @@ if(imgup()){
                         <form action="" method="POST" enctype="multipart/form-data">
                           <div class="row">
                              <div class="col-md-12">
-                             <input class="form-control" type="text" name="nom_complet" placeholder="nom complet du membre" required="">
+                             <input class="form-control" type="text" name="nom_complet" placeholder="nom complet de l'agent" required="">
                              </div>
                           </div>
                           <br>
@@ -343,34 +339,12 @@ if(imgup()){
                                 <input class="form-control" type="text" name="adresse" placeholder="Lieu naissance" required="">
                               </div>
                               <div class="col-md-6">
-                                <input class="form-control" type="text" name="secteur" placeholder="Secteur activite">
+                                <input class="form-control" type="text" name="fonction" placeholder="Fonction">
                               </div>
 
                           </div>
                           <br>
-                           <div class="row">
-                              <div class="col-md-6">
-                                <select class="form-control" name="ref_domaine" required="">
-                                   <option>-type-</option>
-                                  <?php $rdom=$db->query("SELECT * FROM domaine"); ?>
-                                                <?php while ($g = $rdom->fetch()) { ?>
-                                 
-                                  <option value="<?= $g['ndomaine']; ?>"><?= $g['ndomaine']; ?></option>
-                                  <?php } ?>
-                                </select>
-                              </div>
-                              <div class="col-md-6">
-                                 <select class="form-control" name="ref_grade" required="">
-                                  <option>-montant-</option>
-                                   <?php $recupgrade=$db->query("SELECT * FROM grade"); ?>
-                                                <?php while ($grade = $recupgrade->fetch()) { ?>
-                                   
-                                   <option value="<?= $grade['ngrade']; ?>"><?= $grade['ngrade']; ?></option>
-                                   <?php } ?>
-                                 </select>
-                              </div>
-
-                          </div>
+                           
                           <br>
                            <div class="row">
                               <div class="col-md-6">

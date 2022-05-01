@@ -234,7 +234,7 @@ if (isset($_POST['submit'])) {
 
             
 
-           <?php include '../partials/_foot.php'; ?>
+           <?php include '../../partials/_foot.php'; ?>
 
 
         </section>
