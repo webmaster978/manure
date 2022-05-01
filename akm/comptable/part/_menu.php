@@ -28,8 +28,14 @@
                         <li class="nav-item">
                            <a class="nav-link" href="qr/" aria-expanded="false"><i class="fa fa-fire"></i> <span class="toggle-none">Operation</a> 
                         </li>
+                        
                         <li class="nav-item">
-                           <a class="nav-link" href="historique" aria-expanded="false"><i class="fa fa-book"></i> <span class="toggle-none">Operation</a> 
+                            <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-book"></i> <span class="toggle-none">Rapports <span class="fa arrow"></span></span></a>
+                            <ul class="nav-second-level nav flex-column " aria-expanded="false">
+								<li class="nav-item"><a class="nav-link" href="rapport">Rapport journalier</a></li>
+                                <li class="nav-item"><a class="nav-link" href="historiquegeneral">Historique</a></li>
+                                
+                            </ul>
                         </li>
 
                        

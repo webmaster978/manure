@@ -7,8 +7,8 @@ RewriteRule ^demande$ demande.php
 RewriteRule ^doc$ doc.php
 RewriteRule ^offre$ offre.php
 RewriteRule ^cand$ candidature.php
-RewriteRule ^suivie$ suivie.php
-RewriteRule ^conge$ conge.php
+RewriteRule ^jour$ jour.php
+RewriteRule ^rapport$ rapport.php
 RewriteRule ^view$ view.php
 RewriteRule ^membres$ membres.php
 RewriteRule ^historique$ historique.php
