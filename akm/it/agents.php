@@ -224,8 +224,8 @@ if(imgup()){
                                                     <th>NOM COMPLET</th>
                                                     <th>MATRICULE</th>
                                                     <th>ZONE</th>
-                                                    <th>MONTANT</th>
-                                                    <th>TYPE</th>
+                                                    <!-- <th>MONTANT</th> -->
+                                                    <!-- <th>TYPE</th> -->
                                                     <th>DATE NAISSANCE</th>
                                                     <th>LIEU NAISSANCE</th>
                                                     <th>TELEPHONE</th>
@@ -248,8 +248,8 @@ if(imgup()){
                                                    <td><?= $g['nom_complet']; ?></td>
                                                    <td><?= $g['STUDENTID']; ?></td>
                                                    <td><?= $g['ref_niveau']; ?></td>
-                                                   <td><?= $g['ref_grade']; ?></td>
-                                                   <td><?= $g['ref_domaine']; ?></td>
+                                                   <!-- <td><?= $g['ref_grade']; ?></td> -->
+                                                   <!-- <td><?= $g['ref_domaine']; ?></td> -->
                                                   <td><?= $g['date_naiss']; ?></td>
                                                    <td><?= $g['adresse']; ?></td>
                                                    <td><?= $g['numero_tel']; ?></td>
@@ -266,6 +266,8 @@ if(imgup()){
                                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop<?= $g['id_utilisateur']; ?>"><i class="fa fa-eye"></i>
                                                         
                                                      </button>
+                                                     <a class="btn btn-primary" href="pcard?id_card=<?= $g['id_utilisateur']; ?>"><i class="fa fa-print"></i></a>
+                                                     
                                                    </td>
                                                 </tr>
                                                 <?php } ?>

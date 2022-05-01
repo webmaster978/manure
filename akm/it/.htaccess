@@ -9,3 +9,4 @@ RewriteRule ^config$ config.php
 RewriteRule ^profil$ profil.php
 RewriteRule ^view$ view.php
 RewriteRule ^agents$ agents.php
+RewriteRule ^historique$ historique.php
