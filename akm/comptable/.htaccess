@@ -10,3 +10,6 @@ RewriteRule ^cand$ candidature.php
 RewriteRule ^suivie$ suivie.php
 RewriteRule ^conge$ conge.php
 RewriteRule ^view$ view.php
+RewriteRule ^membres$ membres.php
+RewriteRule ^historique$ historique.php
+RewriteRule ^historiquegeneral$ historiquegeneral.php

@@ -17,9 +17,13 @@
                         <li class="nav-item">
                             <a class="nav-link"  href="javascript: void(0);" aria-expanded="false"><i class="fa fa-folder-o"></i> <span class="toggle-none">Mes donnees <span class="fa arrow"></span></span></a>
                             <ul class="nav-second-level nav flex-column " aria-expanded="false">
-								<li class="nav-item"><a class="nav-link" href="#">Communiques</a></li>
+								<li class="nav-item"><a class="nav-link" href="historique">Historique journalier</a></li>
+                                <li class="nav-item"><a class="nav-link" href="historiquegeneral">Historique</a></li>
                                 
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="membres" aria-expanded="false"><i class="fa fa-users"></i> <span class="toggle-none">Membres</a> 
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="qr/" aria-expanded="false"><i class="fa fa-fire"></i> <span class="toggle-none">Operation</a> 
