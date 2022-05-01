@@ -5,7 +5,7 @@ RewriteRule ^profil$ profil.php
 RewriteRule ^tache$ tache.php
 RewriteRule ^demande$ demande.php
 RewriteRule ^doc$ doc.php
-RewriteRule ^offre$ offre.php
+RewriteRule ^membres$ membres.php
 RewriteRule ^cand$ candidature.php
 RewriteRule ^suivie$ suivie.php
 RewriteRule ^conge$ conge.php

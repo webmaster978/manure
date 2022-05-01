@@ -266,6 +266,7 @@ if(imgup()){
                                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop<?= $g['id_utilisateur']; ?>"><i class="fa fa-eye"></i>
                                                         
                                                      </button>
+                                                     <a class="btn btn-primary" href="pcard?id_card=<?= $g['id_utilisateur']; ?>"><i class="fa fa-print"></i></a>
                                                    </td>
                                                 </tr>
                                                 <?php } ?>

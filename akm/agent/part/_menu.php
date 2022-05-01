@@ -23,7 +23,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="" aria-expanded="false"><i class="fa fa-users"></i> <span class="toggle-none">Membres</a> 
+                           <a class="nav-link" href="membres" aria-expanded="false"><i class="fa fa-users"></i> <span class="toggle-none">Membres</a> 
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="qr/" aria-expanded="false"><i class="fa fa-fire"></i> <span class="toggle-none">Operation</a> 
