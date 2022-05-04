@@ -19,7 +19,7 @@
 						<a class="admin-logo" href="index.php">
 							<h1>
 							
-								<img width="50px;" alt="" src="../../img/ok.jpg" class="toggle-none hidden-xs">
+								<!-- <img width="50px;" alt="" src="../../img/ok.jpg" class="toggle-none hidden-xs"> -->
 								
 							</h1>
 						</a>				

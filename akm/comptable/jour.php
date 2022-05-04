@@ -6,7 +6,30 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mon historique de depot du <?php $da = date('Y-m-d'); echo $da ?></title>
+        <title>
+        <?php 
+        require'../../config/base.php';
+   
+   $id_utilisateur = $_GET['id_agent'];
+                        $ag = $db->prepare('SELECT * FROM tbl_agent WHERE id_utilisateur=:id_utilisateur');
+$ag->execute(array(
+  'id_utilisateur' => $_GET['id_agent']
+  
+));
+
+$aa = $ag->fetchAll(PDO::FETCH_OBJ);
+foreach ($aa as $ss) :
+ 
+    ?>
+Rapport du
+<?php $daaa= date('Y-m-d'); echo $daaa ?> de <?= $ss->nom_complet; ?>
+
+<?php
+endforeach;
+
+
+?>
+        </title>
 
         <!-- Common Plugins -->
        <?php include '../../partials/_linko.php'; ?>
@@ -72,7 +95,7 @@ $aa = $ag->fetchAll(PDO::FETCH_OBJ);
 foreach ($aa as $ss) :
  
     ?>
-			    <h2> Rappor du <?= $ss->nom_complet; ?></h2>
+			    <h2> Rapport du <?php $daaa= date('Y-m-d'); echo $daaa ?> de <?= $ss->nom_complet; ?></h2>
 	
                 <?php
 endforeach;
