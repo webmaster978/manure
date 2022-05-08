@@ -5,7 +5,7 @@
 	<title></title>
 
 </head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="../../assets/lib/bootstrap/css/bootstrap.min.css" integrity="" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="card.css">
 
 <body onload="window.print(); window.close();">
@@ -36,44 +36,14 @@
 </div>
 <div class="col-md-8">
 <h1 class="text-success text-center">AKIBA COMPAGNIE</h1>
-<h1 class="text-success text-center"></h1>
+<h3 class="text-center">Fiche d'identification du membre</h3>
 </div>
 <div class="col-md-2">
-<img width="100px;" src="img/dddd.PNG" alt="">
-</div>
- </div>
-
- <div class="row">
-   <div class="col-md-12">
-  <div class="text-center">
-  <h3>FICHE DE <?=ucwords($carte->nom_complet); ?> </h3>
-  </div>
-   </div>
- </div>
- <br>
- <br>
- <br>
- <br>
- <div class="row">
- <div class="col-md-4">
- 
- <h3 style="text-align:center;">Noms : <?=ucwords($carte->nom_complet); ?></h3>
- 
- </div>
- <div class="col-md-2">
-
- </div>
-
- <div clas="col-md-4">
-  <img width="200px;" src="../avatars/<?=($carte->photo); ?>" alt="">
-  <h3 style="text-align:center;">Code</h3>
-  <h3 style="text-align:center;"><?=($carte->STUDENTID); ?></h3>
- </div>
- </div>
-
-
 
 </div>
+ </div>
+
+
 
 </body>
 </html>
